@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8933639468754D53BD4908 /* Pods_TITAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672C6A674FC096A8B366DDD1 /* Pods_TITAN.framework */; };
+		FAD059EB222188D100007BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD059EA222188D100007BB0 /* AppDelegate.swift */; };
+		FAD059F0222188D100007BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD059EE222188D100007BB0 /* Main.storyboard */; };
+		FAD059F3222188D100007BB0 /* TITAN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD059F1222188D100007BB0 /* TITAN.xcdatamodeld */; };
+		FAD059F5222188D200007BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD059F4222188D200007BB0 /* Assets.xcassets */; };
+		FAD059F8222188D200007BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD059F6222188D200007BB0 /* LaunchScreen.storyboard */; };
+		FAD05A052221952A00007BB0 /* categoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD05A042221952A00007BB0 /* categoriesTableViewController.swift */; };
+		FAD05A072221956B00007BB0 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD05A062221956B00007BB0 /* ArticlesTableViewController.swift */; };
+		FAD05A0E2221990700007BB0 /* swipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD05A0D2221990700007BB0 /* swipeTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53F327274BED14BC5F54EAED /* Pods-TITAN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TITAN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TITAN/Pods-TITAN.debug.xcconfig"; sourceTree = "<group>"; };
+		672C6A674FC096A8B366DDD1 /* Pods_TITAN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TITAN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E570ABE1DBDD48F11A4EB878 /* Pods-TITAN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TITAN.release.xcconfig"; path = "Pods/Target Support Files/Pods-TITAN/Pods-TITAN.release.xcconfig"; sourceTree = "<group>"; };
+		FAD059E7222188D100007BB0 /* TITAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TITAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD059EA222188D100007BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD059EF222188D100007BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD059F2222188D100007BB0 /* TITAN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TITAN.xcdatamodel; sourceTree = "<group>"; };
+		FAD059F4222188D200007BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD059F7222188D200007BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD059F9222188D200007BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD05A042221952A00007BB0 /* categoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesTableViewController.swift; sourceTree = "<group>"; };
+		FAD05A062221956B00007BB0 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		FAD05A0D2221990700007BB0 /* swipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD059E4222188D100007BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8933639468754D53BD4908 /* Pods_TITAN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A47D18FAE953C3759D867C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672C6A674FC096A8B366DDD1 /* Pods_TITAN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6D7B13853DEE201F95BE201 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53F327274BED14BC5F54EAED /* Pods-TITAN.debug.xcconfig */,
+				E570ABE1DBDD48F11A4EB878 /* Pods-TITAN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAD059DE222188D100007BB0 = {
+			isa = PBXGroup;
+			children = (
+				FAD059E9222188D100007BB0 /* TITAN */,
+				FAD059E8222188D100007BB0 /* Products */,
+				F6D7B13853DEE201F95BE201 /* Pods */,
+				3A47D18FAE953C3759D867C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD059E8222188D100007BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD059E7222188D100007BB0 /* TITAN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD059E9222188D100007BB0 /* TITAN */ = {
+			isa = PBXGroup;
+			children = (
+				FAD059EA222188D100007BB0 /* AppDelegate.swift */,
+				FAD05A08222195E100007BB0 /* viewControllers */,
+				FAD05A01222194B100007BB0 /* view */,
+				FAD059F4222188D200007BB0 /* Assets.xcassets */,
+				FAD059F6222188D200007BB0 /* LaunchScreen.storyboard */,
+				FAD059F9222188D200007BB0 /* Info.plist */,
+				FAD059F1222188D100007BB0 /* TITAN.xcdatamodeld */,
+			);
+			path = TITAN;
+			sourceTree = "<group>";
+		};
+		FAD05A01222194B100007BB0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FAD059EE222188D100007BB0 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FAD05A08222195E100007BB0 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAD05A062221956B00007BB0 /* ArticlesTableViewController.swift */,
+				FAD05A042221952A00007BB0 /* categoriesTableViewController.swift */,
+				FAD05A0D2221990700007BB0 /* swipeTableViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD059E6222188D100007BB0 /* TITAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD059FC222188D200007BB0 /* Build configuration list for PBXNativeTarget "TITAN" */;
+			buildPhases = (
+				14ED173BF8BC79CADD781C8E /* [CP] Check Pods Manifest.lock */,
+				FAD059E3222188D100007BB0 /* Sources */,
+				FAD059E4222188D100007BB0 /* Frameworks */,
+				FAD059E5222188D100007BB0 /* Resources */,
+				D9BA6C33655C1CE263D87CF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TITAN;
+			productName = TITAN;
+			productReference = FAD059E7222188D100007BB0 /* TITAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD059DF222188D100007BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = emad;
+				TargetAttributes = {
+					FAD059E6222188D100007BB0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FAD059E2222188D100007BB0 /* Build configuration list for PBXProject "TITAN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD059DE222188D100007BB0;
+			productRefGroup = FAD059E8222188D100007BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD059E6222188D100007BB0 /* TITAN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD059E5222188D100007BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD059F8222188D200007BB0 /* LaunchScreen.storyboard in Resources */,
+				FAD059F5222188D200007BB0 /* Assets.xcassets in Resources */,
+				FAD059F0222188D100007BB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14ED173BF8BC79CADD781C8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TITAN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BA6C33655C1CE263D87CF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TITAN/Pods-TITAN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TITAN/Pods-TITAN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD059E3222188D100007BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD05A072221956B00007BB0 /* ArticlesTableViewController.swift in Sources */,
+				FAD05A0E2221990700007BB0 /* swipeTableViewController.swift in Sources */,
+				FAD059F3222188D100007BB0 /* TITAN.xcdatamodeld in Sources */,
+				FAD059EB222188D100007BB0 /* AppDelegate.swift in Sources */,
+				FAD05A052221952A00007BB0 /* categoriesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAD059EE222188D100007BB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD059EF222188D100007BB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD059F6222188D200007BB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD059F7222188D200007BB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD059FA222188D200007BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD059FB222188D200007BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD059FD222188D200007BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F327274BED14BC5F54EAED /* Pods-TITAN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GW3A8Z2CBJ;
+				INFOPLIST_FILE = TITAN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.titanium.TITAN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD059FE222188D200007BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E570ABE1DBDD48F11A4EB878 /* Pods-TITAN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GW3A8Z2CBJ;
+				INFOPLIST_FILE = TITAN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.titanium.TITAN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD059E2222188D100007BB0 /* Build configuration list for PBXProject "TITAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD059FA222188D200007BB0 /* Debug */,
+				FAD059FB222188D200007BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD059FC222188D200007BB0 /* Build configuration list for PBXNativeTarget "TITAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD059FD222188D200007BB0 /* Debug */,
+				FAD059FE222188D200007BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAD059F1222188D100007BB0 /* TITAN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAD059F2222188D100007BB0 /* TITAN.xcdatamodel */,
+			);
+			currentVersion = FAD059F2222188D100007BB0 /* TITAN.xcdatamodel */;
+			path = TITAN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAD059DF222188D100007BB0 /* Project object */;
+}
